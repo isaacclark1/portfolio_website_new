@@ -1,11 +1,11 @@
 import Image from "next/image";
-import portrait from "@/public/isaac-clark.jpg";
+import landingImage from "@/public/landing.jpg";
 
-export default function Portrait() {
+export default function LandingImage() {
   return (
     <div className="flex-1 relative min-h-75 aspect-video">
       <Image
-        src={portrait}
+        src={landingImage}
         alt="Isaac Clark"
         priority
         className="object-cover"

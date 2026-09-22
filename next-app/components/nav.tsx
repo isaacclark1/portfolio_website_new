@@ -1,10 +1,7 @@
 import Link from "next/link";
 
 export default function Nav() {
-  const links = [
-    { name: "PROJECTS", href: "#projects" },
-    { name: "SKILLS", href: "#skills" },
-  ];
+  const links = [{ name: "PROJECTS", href: "#projects" }];
 
   return (
     <nav className="text-sm font-semibold flex gap-5">

@@ -7,10 +7,10 @@ export default function Introduction() {
         Hi, my name is <strong className="font-semibold">Isaac</strong>.
       </h1>
       <p>
-        I am a software engineer based in Haywards Heath, West Sussex, with a
+        I am a software developer based in Haywards Heath, West Sussex, with a
         first-class honours degree in Computing & IT from the Open University. I
         have an interest in all areas of software development, with most of my
-        experience so far centred around web development.
+        experience in web development.
       </p>
 
       <Nav />

@@ -1,16 +1,21 @@
 import Introduction from "@/components/introduction";
-import Portrait from "@/components/portrait";
+import LandingImage from "@/components/landing-image";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
     <main className="flex flex-col gap-2.5">
       <section className="flex min-h-screen">
         <Introduction />
-        <Portrait />
+        <LandingImage />
       </section>
 
       <section>
-        <h2>Projects</h2>
+        <div className="p-10">
+          <h2 className="text-3xl">Projects</h2>
+        </div>
+
+        <Projects />
       </section>
     </main>
   );

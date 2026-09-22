@@ -9,7 +9,7 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Isaac Clark - Software Engineer",
+  title: "Isaac Clark - Software Developer",
   description: "Isaac Clark Portfolio Website",
 };
 
