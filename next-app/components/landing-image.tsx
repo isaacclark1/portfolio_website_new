@@ -7,11 +7,11 @@ export default function LandingImage() {
       <Image
         src={landingImage}
         alt="Isaac Clark"
-        priority
         className="object-cover"
         loading="eager"
-        placeholder="blur"
         fill
+        sizes="(max-width: 768px) 100vw, 50vw"
+        preload
       />
     </div>
   );

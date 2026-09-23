@@ -44,8 +44,10 @@ export default function ImageViewer({ images }: ImageViewerProps) {
         <Image
           src={currentImage.src}
           alt={currentImage.alt}
+          loading="lazy"
           fill
           className="object-contain"
+          sizes="(max-width: 768px) 100vw, 50vw"
         />
         <button
           type="button"
