@@ -11,9 +11,11 @@ export default function Project({ project }: ProjectProps) {
         <p>{project.description}</p>
 
         <h4 className="text-lg font-semibold">Technologies</h4>
-        {project.technologyIcons.map((Icon, i) => (
-          <Icon key={i} />
-        ))}
+        <div className="flex gap-5 flex-wrap">
+          {project.technologyIcons.map((Icon, i) => (
+            <Icon key={i} />
+          ))}
+        </div>
       </div>
 
       <ImageViewer images={project.images} />
