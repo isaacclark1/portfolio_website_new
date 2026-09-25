@@ -7,11 +7,11 @@ export default function LandingImage() {
       <Image
         src={landingImage}
         alt="Isaac Clark"
-        className="object-cover"
+        className="object-cover h-full"
         loading="eager"
-        fill
-        sizes="(max-width: 768px) 100vw, 50vw"
         preload
+        width={4032}
+        height={3024}
       />
     </div>
   );
